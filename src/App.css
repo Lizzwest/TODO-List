@@ -23,6 +23,16 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+li{
+  font-size: 25px;
+  text-align: center;
+  justify-content: center;
+}
+.justice{
+  justify-content: center;
+  align-items: center ;
+}
+
 
 .App-link {
   color: #61dafb;

@@ -4,7 +4,7 @@ import '../App.css'
 class ListItem extends Component {
   render() {
     return (
-      <div>
+      <div className="listItem">
         <li>{this.props.doThis}</li>
       </div>
     )
