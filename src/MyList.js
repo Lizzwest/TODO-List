@@ -3,12 +3,16 @@ import './App.css'
 import ListItem from './components/ListItem'
 
 class MyList extends Component {
+  
   render() {
+    let todoItems = this.props.theList.map((item, index) => (
+      <ListItem doThis={item} key={index} />
+    ))
     return (
       <div>
         <h1>Things I should stop procrastinating:</h1>
         <ul>
-          <ListItem doThis="Buy ice cream" />
+         {todoItems}
         </ul>
       </div>
     )
